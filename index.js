@@ -4,7 +4,7 @@ const app=express()
 
 function main (){
     app.get('/',(req,res)=>{
-        return res.json({'message': 'Hello my bubblies. GITHUB ACTIONS retest'})
+        return res.json({'message': 'Hello my bubblies. GITHUB ACTIONS re retest'})
     })
     app.listen(3000,()=>{
         console.log('Server is running on port 3000');
